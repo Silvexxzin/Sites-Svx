@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212 ;
+    color: #F1FAEE;
+
+}
+
+body {
+   font-family: "Intel One Mono", monospace;
+   padding: 20px;
+   line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+header h1 {
+    color: #E63946;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #F1FAEE;
+    text-transform: uppercase;
+}
+
+section {
+    margin-bottom: 30px;
+    border-left: 5px solid #E63946;
+    padding-left: 15px;
+}
+
+section h2 {
+    color: #E63946;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #2A2A2A;
+    color: #F1FAEE;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    border-top: 2px solid #E63946;
+}
